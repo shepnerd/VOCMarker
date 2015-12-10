@@ -241,7 +241,7 @@ namespace VOCMarker
         {
             System.Windows.Point currentpoint = Mouse.GetPosition(canvas_ink);
 
-            //lab_prop.Content = Convert.ToString("X="+Math.Floor(currentpoint.X)+","+"Y="+Math.Floor(currentpoint.Y));
+            lab_prop.Content = Convert.ToString("X="+Math.Floor(currentpoint.X)+","+"Y="+Math.Floor(currentpoint.Y));
             
             if(check_dots.IsChecked.Value) // choose dots
             {

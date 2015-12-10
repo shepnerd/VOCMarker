@@ -23,3 +23,4 @@ D:\codes\Github\VOCMarker\VOCMarker\obj\Debug\VOCMarker_MarkupCompile.cache
 D:\codes\Github\VOCMarker\VOCMarker\obj\Debug\VOCMarker.g.resources
 D:\codes\Github\VOCMarker\VOCMarker\obj\Debug\VOCMarker.Properties.Resources.resources
 D:\codes\Github\VOCMarker\VOCMarker\obj\Debug\VOCMarker.csproj.GenerateResource.Cache
+D:\codes\Github\VOCMarker\VOCMarker\obj\Debug\VOCMarker.csprojResolveAssemblyReference.cache
