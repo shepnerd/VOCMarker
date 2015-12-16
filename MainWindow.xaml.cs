@@ -90,6 +90,9 @@ namespace VOCMarker
                                 canvas_ink.Children.Clear();
                                 markedPoints.Clear();
                                 markedRegions.Clear();
+
+                                startPoint.X = -1;
+                                startPoint.Y = -1;
                             }
                         }
                     }
@@ -103,6 +106,8 @@ namespace VOCMarker
             {
                 this.Close();
             }
+
+            //e.Handled = true;
         }
 
         private void btn_Click(object sender, RoutedEventArgs e)
@@ -281,7 +286,11 @@ namespace VOCMarker
                         region_buf = region;
                     }
                     
-                    
+                    if(startPoint.X < 0 || startPoint.Y < 0)
+                    {
+                        markedRegions.Clear();
+                        canvas_ink.Children.Clear();
+                    }
                     //canvasPoint = new Ellipse();
                     //canvasPoint.Stroke = new SolidColorBrush(color);
                     //canvasPoint.StrokeThickness = 1.0;
