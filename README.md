@@ -1,2 +1,2 @@
 # VOCMarker
-An asistant tool for annote images for object counting problem
+A object counting annotation tool. 
