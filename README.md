@@ -1,2 +1,2 @@
 # VOCMarker
-A object counting annotation tool. 
+A object counting annotation tool, written in C#.
